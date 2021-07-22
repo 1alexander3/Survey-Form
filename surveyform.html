@@ -1,0 +1,105 @@
+<div id="outside">
+  <form id="survey-form" action="/my-survey-form-page" method="post">
+    <h1 id="title">My Survey Form</h1>
+    <p id="description">Please complete all questions below before submitting the survey</p>
+  <link rel="stylesheet" type="text/css" href="../Survey Form/css/surveyform.css">
+
+    <!--------------------Personal Information------------------->
+      <div class="form-group">
+          <header>
+            <h2>Personal Information</h2>
+          </header>
+          <div id="form-group-a">
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" required id="name" name="user_name" placeholder="Enter name here">   
+          <label id="email-label" for="email">Email:</label>
+          <input type="email" required id="email" name="email" placeholder="Enter email here">   
+          <label id="number-label" for="phone">Phone Number:</label>
+          <input type="number" required id="number" name="user_name" placeholder="Enter phone number here" min="1" max="9">
+        </div>
+      </div>
+
+      <!--------------------Favorite Pizza------------------------>
+      <div class="form-group">
+          <h2>What is your favorite pizza?</h2>
+          <div id="form-group-b">
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select favorite pizza</option>
+            <option value="cheese">Cheese</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="sausage">Sausage</option>
+            <option value="anchovi">Anchovi</option>
+            <option value="pineapple">Pineapple</option>
+            <option value="olive">Olive</option>
+          </select>
+        </div>
+      </div>
+
+      <!-----------------Activities/Hobbies---------------------->
+      <div class="form-group">
+          <h2>What activities do you enjoy? <span class="clue">(Check all that apply)</span></h2>
+          <div id="form-group-c">
+            <label class="container"> 
+              <input type="checkbox" name="jogging" value="jogging"> Jogging
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="drawing" value="drawing"> Drawing
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="reading" value="reading"> Reading
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="building" value="building"> Building
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="music" value="music"> Music
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="eating" value="eating"> Eating
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="travel" value="travel"> Traveling
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+              <input type="checkbox" name="cooking" value="cooking"> Cooking
+              <span class="checkmark"></span>
+            </label>
+          </div>
+      </div>
+
+      <!---------------------------Social------------------------------->
+      <div class="form-group">
+          <h2>Do you enjoy being around other people?</h2>
+          <div id="form-group-d">
+            <label class="container2">Yes
+              <input type="radio" id="yes" name="social" value="Yes">
+              <span class="checkmark2"></span>
+            </label>
+            <label class="container2">No
+              <input type="radio" id="no" name="social" value="No">
+              <span class="checkmark2"></span>
+            </label>
+        </div>
+      </div>
+
+      <!---------------------Feelings Today------------------------>
+      <div class="form-group">
+          <h2>How do you feel today?</h2>
+          <div id="form-group-e">
+          <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your thoughts here"></textarea>
+        </div>
+      </div>
+
+      <!-----------------------Submit--------------------------------->
+      <div id="submit-button">
+        <button type="submit" id="submit">Click Here to submit your survey</button>
+      </div>
+  </form>
+</div>

@@ -1,0 +1,240 @@
+body {
+	font-family: "Times New Roman", sans-serif;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+#outside {
+	background-color: mediumpurple;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#description {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	width: 70%;
+	padding: 1em;
+	border: 3px solid #fff;
+	border-radius: 1em;
+}
+
+/*
+#form-group-a {
+	border: 2px solid #fff;
+}
+
+#form-group-b {
+	border: 2px solid #fff;
+}
+
+#form-group-c {
+	border: 2px solid #fff;
+}
+
+#form-group-d {
+	border: 2px solid #fff;
+}
+
+#form-group-e {
+	border: 2px solid #fff;
+}
+*/
+
+#survey-form {
+	background-color: #ff6f61ff;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+label {
+	display: inline-block;
+	width: 110px;
+	text-align: right;
+}
+
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+select {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form-group-c label {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clue {
+	margin-left: 0.25rem;
+	font-size: 1.3rem;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#form-group-d label {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container2:hover input ~ .checkmark2 {
+  background-color: #ccc;
+}
+
+.container2 input:checked ~ .checkmark2 {
+  background-color: #2196F3;
+}
+
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+.container2 .checkmark2:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+#submit-button button {
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+button {
+  background-color: #ffffff; 
+  border: none;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: mediumpurple;
+  color: white;
+}
